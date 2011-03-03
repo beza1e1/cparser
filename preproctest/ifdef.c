@@ -66,5 +66,3 @@ jo1 not defined
 #ifndef JO2
 jo2 not defined
 #endif
-
-

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<VisualStudioProject 
+<VisualStudioProject
 	ProjectType="Intel C++ Project"
 	Version="10.1"
 	Name="cparser"
@@ -9,19 +9,19 @@
 	VCNestedProjectFileName="cparser.vcproj"
 	Keyword="Win32Proj">
 	<Platforms>
-		<Platform 
+		<Platform
 			Name="Win32"/>
 	</Platforms>
 	<Configurations>
-		<Configuration 
+		<Configuration
 			Name="Debug|Win32">
-			<Tool 
+			<Tool
 				Name="GeneralTool"
 				OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 				IntermediateDirectory="$(ConfigurationName)"
 				ConfigurationType="1"
 				CharacterSet="2"/>
-			<Tool 
+			<Tool
 				Name="CppCmplrTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="../../ipd/include;..;../win32"
@@ -33,7 +33,7 @@
 				WarningLevel="3"
 				DebugInformationFormat="4"
 				C99Support="1"/>
-			<Tool 
+			<Tool
 				Name="LinkerTool"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../ipd/lib"
@@ -42,35 +42,35 @@
 				SubSystem="1"
 				TargetMachine="1"
 				DelayImpLib=""/>
-			<Tool 
+			<Tool
 				Name="LibrarianTool"/>
-			<Tool 
+			<Tool
 				Name="ResCmplrTool"/>
-			<Tool 
+			<Tool
 				Name="MidlCmplrTool"/>
-			<Tool 
+			<Tool
 				Name="BscMakeTool"/>
-			<Tool 
+			<Tool
 				Name="PreBuildEventTool"/>
-			<Tool 
+			<Tool
 				Name="PreLinkEventTool"/>
-			<Tool 
+			<Tool
 				Name="PostBuildEventTool"/>
-			<Tool 
+			<Tool
 				Name="CustomTool"/>
-			<Tool 
+			<Tool
 				Name="CustomNodeTool"/>
 		</Configuration>
-		<Configuration 
+		<Configuration
 			Name="Release|Win32">
-			<Tool 
+			<Tool
 				Name="GeneralTool"
 				OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 				IntermediateDirectory="$(ConfigurationName)"
 				ConfigurationType="1"
 				CharacterSet="1"
 				WholeProgramOptimization="1"/>
-			<Tool 
+			<Tool
 				Name="CppCmplrTool"
 				WholeProgramOptimization="1"
 				Optimization="2"
@@ -83,7 +83,7 @@
 				WarningLevel="3"
 				DebugInformationFormat="3"
 				C99Support="1"/>
-			<Tool 
+			<Tool
 				Name="LinkerTool"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="../../ipd/lib"
@@ -94,181 +94,180 @@
 				EnableCOMDATFolding="2"
 				TargetMachine="1"
 				DelayImpLib=""/>
-			<Tool 
+			<Tool
 				Name="LibrarianTool"/>
-			<Tool 
+			<Tool
 				Name="ResCmplrTool"/>
-			<Tool 
+			<Tool
 				Name="MidlCmplrTool"/>
-			<Tool 
+			<Tool
 				Name="BscMakeTool"/>
-			<Tool 
+			<Tool
 				Name="PreBuildEventTool"/>
-			<Tool 
+			<Tool
 				Name="PreLinkEventTool"/>
-			<Tool 
+			<Tool
 				Name="PostBuildEventTool"/>
-			<Tool 
+			<Tool
 				Name="CustomTool"/>
-			<Tool 
+			<Tool
 				Name="CustomNodeTool"/>
 		</Configuration>
 	</Configurations>
 	<Files>
-		<File 
+		<File
 			RelativePath="..\adt\align.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\array.c"/>
-		<File 
+		<File
 			RelativePath="..\adt\array.h"/>
-		<File 
+		<File
 			RelativePath="..\ast_t.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\bitfiddle.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\error.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\fourcc.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\hash_string.h"/>
-		<File 
+		<File
 			RelativePath="..\lang_features.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\obst.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\pset.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\strset.c"/>
-		<File 
+		<File
 			RelativePath="..\adt\strset.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\xmalloc.c"/>
-		<File 
+		<File
 			RelativePath="..\adt\xmalloc.h"/>
-		<File 
+		<File
 			RelativePath="..\driver\fe_common.h"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_cmdline.c"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_cmdline.h"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_codegen.c"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_codegen.h"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_opt.c"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_opt.h"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_timing.c"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_timing.def"/>
-		<File 
+		<File
 			RelativePath="..\driver\firm_timing.h"/>
-		<File 
+		<File
 			RelativePath="..\driver\gen_firm_asm.c"/>
-		<File 
+		<File
 			RelativePath="..\ast.c"/>
-		<File 
+		<File
 			RelativePath="..\ast.h"/>
-		<File 
+		<File
 			RelativePath="..\ast2firm.c"/>
-		<File 
+		<File
 			RelativePath="..\ast2firm.h"/>
-		<File 
+		<File
 			RelativePath="..\config.h"/>
-		<File 
+		<File
 			RelativePath="..\diagnostic.c"/>
-		<File 
+		<File
 			RelativePath="..\diagnostic.h"/>
-		<File 
+		<File
 			RelativePath="..\entitymap.c"/>
-		<File 
+		<File
 			RelativePath="..\entitymap_t.h"/>
-		<File 
+		<File
 			RelativePath="..\format_check.c"/>
-		<File 
+		<File
 			RelativePath="..\format_check.h"/>
-		<File 
+		<File
 			RelativePath="..\lexer.c"/>
-		<File 
+		<File
 			RelativePath="..\lexer.h"/>
-		<File 
+		<File
 			RelativePath="..\main.c"/>
-		<File 
+		<File
 			RelativePath="..\parser.c"/>
-		<File 
+		<File
 			RelativePath="..\parser.h"/>
-		<File 
+		<File
 			RelativePath="..\revision.h"/>
-		<File 
+		<File
 			RelativePath="..\string_rep.h"/>
-		<File 
+		<File
 			RelativePath="..\symbol.h"/>
-		<File 
+		<File
 			RelativePath="..\symbol_t.h"/>
-		<File 
+		<File
 			RelativePath="..\symbol_table.c"/>
-		<File 
+		<File
 			RelativePath="..\symbol_table.h"/>
-		<File 
+		<File
 			RelativePath="..\symbol_table_t.h"/>
-		<File 
+		<File
 			RelativePath="..\target_architecture.h"/>
-		<File 
+		<File
 			RelativePath="..\token.c"/>
-		<File 
+		<File
 			RelativePath="..\token_t.h"/>
-		<File 
+		<File
 			RelativePath="..\tokens.inc"/>
-		<File 
+		<File
 			RelativePath="..\tokens_preprocessor.inc"/>
-		<File 
+		<File
 			RelativePath="..\tokens_punctuator.inc"/>
-		<File 
+		<File
 			RelativePath="..\type.c"/>
-		<File 
+		<File
 			RelativePath="..\type.h"/>
-		<File 
+		<File
 			RelativePath="..\type_hash.c"/>
-		<File 
+		<File
 			RelativePath="..\type_hash.h"/>
-		<File 
+		<File
 			RelativePath="..\type_t.h"/>
-		<File 
+		<File
 			RelativePath="..\types.c"/>
-		<File 
+		<File
 			RelativePath="..\types.h"/>
-		<File 
+		<File
 			RelativePath="..\adt\util.h"/>
-		<File 
+		<File
 			RelativePath="..\warning.c"/>
-		<File 
+		<File
 			RelativePath="..\warning.h"/>
-		<File 
+		<File
 			RelativePath="..\write_caml.c"/>
-		<File 
+		<File
 			RelativePath="..\write_caml.h"/>
-		<File 
+		<File
 			RelativePath="..\write_fluffy.c"/>
-		<File 
+		<File
 			RelativePath="..\write_fluffy.h"/>
-		<File 
+		<File
 			RelativePath="..\win32\stdbool.h"/>
-		<File 
+		<File
 			RelativePath="..\AUTHOR"/>
-		<File 
+		<File
 			RelativePath="..\COPYING"/>
-		<File 
+		<File
 			RelativePath="..\make_release.sh"/>
-		<File 
+		<File
 			RelativePath="..\Makefile"/>
-		<File 
+		<File
 			RelativePath="..\NEWS"/>
-		<File 
+		<File
 			RelativePath="..\README"/>
-		<File 
+		<File
 			RelativePath="..\TODO"/>
 	</Files>
 </VisualStudioProject>
-

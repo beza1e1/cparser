@@ -13,4 +13,3 @@ int main()
 	int la = 0;
 	return bla(con,cat,b,la);
 }
-

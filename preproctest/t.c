@@ -6,5 +6,3 @@ blup
 #define blup bla
 bla
 blup
-
-

@@ -2,7 +2,7 @@
 
 fool(5)
 fool   (5)
-fool  
+fool
 
 
 
